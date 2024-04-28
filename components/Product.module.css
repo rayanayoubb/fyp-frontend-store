@@ -1,0 +1,60 @@
+/* ProductCard.module.css */
+
+.productCard {
+    height:240px;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    transition: box-shadow 0.3s ease; /* Add transition for shadow effect */
+  }
+  
+  .productCard:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .imageContainer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .image {
+    transition: transform 0.3s ease; /* Add transition for image zoom effect */
+  }
+  
+  .imageContainer:hover .image {
+    transform: scale(1.1); /* Increase scale on hover for zoom effect */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Add semi-transparent overlay */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Add transition for opacity change */
+  }
+  
+  .imageContainer:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+  
+  .productName {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Add transition for opacity change */
+  }
+  
+  .imageContainer:hover .productName {
+    opacity: 1; /* Show product name on hover */
+  }
+  
