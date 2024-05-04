@@ -7,3 +7,12 @@ body,
 :root {
   height: 100%;
 }
+body.light-mode {
+  background-color: #ffffff; /* Light mode background color */
+  color: #000000; /* Light mode text color */
+}
+
+body.dark-mode {
+  background-color: #222222; /* Dark mode background color */
+  color: #ffffff; /* Dark mode text color */
+}
