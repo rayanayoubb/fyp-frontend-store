@@ -45,8 +45,8 @@ const Footer = () => {
               Products
             </h6>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
-              >Angular</a>
+              <a href="" className="text-neutral-600 dark:text-neutral-200"
+              >sign in </a>
             </p>
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
@@ -68,8 +68,8 @@ const Footer = () => {
               Useful links
             </h6>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
-              >Pricing</a>
+              <a href="https://fyp-frontend-store.vercel.app/sign-in"className="text-neutral-600 dark:text-neutral-200"
+              >Sign-in</a>
             </p>
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
