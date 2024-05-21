@@ -2,10 +2,12 @@ import { getCollections } from "@/lib/actions/actions";
 import Image from "next/image";
 import Link from "next/link";
 
+
 const Collections = async () => {
   const collections = await getCollections();
 
   return (
+    <>
     <div className="flex flex-col items-center gap-10 py-8 px-5">
       <p className="text-heading1-bold">Collections</p>
       {!collections || collections.length === 0 ? (
@@ -27,6 +29,7 @@ const Collections = async () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 

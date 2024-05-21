@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import { getCollectionDetails } from "@/lib/actions/actions";
 import Image from "next/image";
@@ -11,6 +12,7 @@ const CollectionDetails = async ({
   const collectionDetails = await getCollectionDetails(params.collectionId);
 
   return (
+    <>
     <div className="px-10 py-5 flex flex-col items-center gap-8">
       <Image
         src={collectionDetails.image}
@@ -27,6 +29,8 @@ const CollectionDetails = async ({
         ))}
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

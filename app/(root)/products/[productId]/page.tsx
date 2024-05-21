@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer"
 import Gallery from "@/components/Gallery"
 import ProductCard from "@/components/ProductCard"
 import ProductInfo from "@/components/ProductInfo"
@@ -22,6 +23,7 @@ const ProductDetails = async ({ params }: { params: { productId: string }}) => {
         ))}
       </div>
     </div>
+    <Footer/>
     </>
   )
 }

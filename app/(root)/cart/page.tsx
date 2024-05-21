@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import useCart from "@/lib/hooks/useCart";
 
 import { useUser } from "@clerk/nextjs";
@@ -43,6 +44,7 @@ const Cart = () => {
   };
 
   return (
+    <>
     <div className="flex gap-20 py-16 px-10 max-lg:flex-col max-sm:px-3">
       <div className="w-2/3 max-lg:w-full">
         <p className="text-heading3-bold">Shopping Cart</p>
@@ -115,6 +117,8 @@ const Cart = () => {
         </button>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

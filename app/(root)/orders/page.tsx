@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import { getOrders } from "@/lib/actions/actions";
 
 import { auth } from "@clerk/nextjs";
@@ -10,6 +11,7 @@ const Orders = async () => {
   console.log(orders[0].products);
 
   return (
+    <>
     <div className="px-10 py-5 max-sm:px-3">
       <p className="text-heading3-bold my-10">Your Orders</p>
       {!orders ||
@@ -76,6 +78,8 @@ const Orders = async () => {
         ))}
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

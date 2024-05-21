@@ -1,4 +1,5 @@
 import Collections from "@/components/Collections";
+import Footer from "@/components/Footer";
 import ProductList from "@/components/ProductList";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       </video>
       <Collections />
       <ProductList />
+      <Footer/>
     </>
   );
 }
