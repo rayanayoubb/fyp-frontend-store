@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="">
           <Image src="/logoo.png" alt="logo" width={130} height={100} />
             <p>
-            To transform into something beautiful takes work and faith.
+            To transform into something beautiful takes work and faith.the
             </p>
           </div>
           {/* <!-- Products section --> */}
