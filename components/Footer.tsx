@@ -45,8 +45,8 @@ const Footer = () => {
               Products
             </h6>
             <p className="mb-4">
-              <a href="" className="text-neutral-600 dark:text-neutral-200"
-              >sign in </a>
+              <a href="https://fyp-liu-admin.vercel.app/" className="text-neutral-600 dark:text-neutral-200"
+              >admin </a>
             </p>
             <p className="mb-4">
               <a className="text-neutral-600 dark:text-neutral-200"
