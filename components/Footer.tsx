@@ -53,7 +53,7 @@ const Footer = () => {
               >React</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
+              <a href="atech-lb.tech" className="text-neutral-600 dark:text-neutral-200"
               >Vue</a>
             </p>
             <p>
