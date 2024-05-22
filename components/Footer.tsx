@@ -152,7 +152,7 @@ const Footer = () => {
         <a
           className="font-semibold text-neutral-600 dark:text-neutral-400"
           href="https://tw-elements.com/"
-        >e-commerce website</a>
+        >e-commerce websitee</a>
       </div>
     </footer>
      );

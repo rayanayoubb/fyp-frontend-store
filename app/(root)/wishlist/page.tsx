@@ -1,5 +1,4 @@
 "use client"
-
 import Footer from "@/components/Footer"
 import Loader from "@/components/Loader"
 import ProductCard from "@/components/ProductCard"
