@@ -76,7 +76,7 @@ const Footer = () => {
               >Settings</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
+              <a href="/orders" className="text-neutral-600 dark:text-neutral-200"
               >Orders</a>
             </p>
             <p>
