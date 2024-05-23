@@ -148,11 +148,11 @@ const Footer = () => {
 
       {/* <!--Copyright section--> */}
       <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
-        <span>© 2023 Butterfly:</span>
+        <span>© 2024 Butterfly:</span>
         <a
           className="font-semibold text-neutral-600 dark:text-neutral-400"
           href="https://tw-elements.com/"
-        >e-commerce websitee</a>
+        >E-commerce website</a>
       </div>
     </footer>
      );
